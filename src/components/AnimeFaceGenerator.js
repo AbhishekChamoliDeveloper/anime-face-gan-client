@@ -13,7 +13,7 @@ const AnimeFaceGenerator = () => {
 
     try {
       const response = await axios.get(
-        "http://nothing.abhishekchamoli.repl.co/api/generate-image"
+        "https://nothing.abhishekchamoli.repl.co/api/generate-image"
       );
       console.log(response);
       setImageData(response.data.image);
